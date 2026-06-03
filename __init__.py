@@ -1,0 +1,1 @@
+# kalshi_data_collector package
