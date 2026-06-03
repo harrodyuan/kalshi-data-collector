@@ -91,7 +91,7 @@ class EventsCollector:
 
 # if __name__ == "__main__":
 #     auth = AuthManager(
-#         key_id="05b95ed4-a236-41a1-9e3b-81124f6871dd",
+#         key_id="YOUR_KALSHI_KEY_ID",
 #         key_file_path="private_key.pem"
 #     )
     

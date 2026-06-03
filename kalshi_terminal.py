@@ -354,10 +354,7 @@ class KalshiTerminal:
 
 if __name__ == "__main__":
     # Initialize authentication
-    auth = AuthManager(
-        key_id="05b95ed4-a236-41a1-9e3b-81124f6871dd",
-        key_file_path="private_key.pem"
-    )
+    auth = AuthManager.from_env()
     
     # Create and run terminal
     terminal = KalshiTerminal(auth)

@@ -9,10 +9,7 @@ import time
 
 class MarketExplorer:
     def __init__(self):
-        self.auth = AuthManager(
-            key_id="05b95ed4-a236-41a1-9e3b-81124f6871dd",
-            key_file_path="private_key.pem"
-        )
+        self.auth = AuthManager.from_env()
         self.market_data = MarketDataManager(self.auth)
         self.current_event = None
         self.current_market = None
